@@ -1,0 +1,113 @@
+body
+      {max-height: 768px;
+      max-width: 100%;
+      
+      }
+
+.image_background
+      {width: auto;
+      max-width: 100%;
+      height: auto;
+      min-width: 100%;
+      }
+
+.overlay
+      {background-color: rgba(0,0,0,0.3);
+      top: 0;
+      min-width: 100%;
+      min-height: 87%;
+      max-height: 91%;
+      position: absolute;
+      }
+
+#main_head
+      {font-family: 'Russo One', sans-serif;
+      float: left;
+      margin-left: 5%;
+      font-size: 50px;
+      margin-top: 5vh;
+      color: #fff;
+      display: none;
+      }
+
+#sub_head
+      {font-family: 'bitter';
+      float: left;
+      margin-top: 16vh;
+      font-size: 22px;
+      margin-left: -150px;
+      color: #eee;
+      display: none;
+      }
+
+h3
+      {text-align: center;
+      font-family: "Ubuntu";
+      font-weight: bold;
+      color: #444;
+      font-size: 30px;
+      margin: -5px 0px 20px 0px;
+      }
+
+form
+      {background-color: rgba(255,255,255,0.50);
+      border-radius: 5px;
+      }
+
+#form1
+      {margin: 15vh;
+      }
+
+#form2
+      {margin: 9vh 5vh 5vh 5vh;
+      }
+
+#form1, #form2
+      {min-height: 270px;
+      padding: 20px;
+      }
+
+#form1 button, #form2 button
+      {margin-top: 15px;
+      max-width: 170px;
+      min-height: 40px;
+      text-align: center;
+      float: right;
+      font-size: 17px;
+      }
+
+#opt
+      {color: #555;
+      font-size: 16px;
+      position: relative;
+      margin-top: 80px;
+      }
+
+#sign_up, #sign_in
+      {color: #333;
+      font-size: 20px;
+      font-family: "Bitter";
+      cursor: pointer;
+      }
+
+#first_name, #last_name
+      {max-width: 48%;
+      }
+
+a:hover
+      {text-decoration: none;
+      color: rgb(50,90,127);
+      }
+
+.nav-pills li:hover
+      {border-color: #000;}
+
+.nav li
+      {font-family: 'russo one';}
+
+.footer .badge
+      {background-color: #bbb;
+      border: 1px solid #999;
+      color: #222;
+      margin-top: 1px;
+      }
